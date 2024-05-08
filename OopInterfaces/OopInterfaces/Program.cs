@@ -10,6 +10,15 @@ namespace OopInterfaces
     {
         static void Main(string[] args)
         {
+            IFileSystem fileSystem = new PhysicalFileSystem();
+
+            //TextFile textFile = new TextFile(
+            //    @"D:\FastTrackIT\EON\oop-interfaces\OopInterfaces\OopInterfaces\TextFile.txt");
+
+            XmlFile xmlFile = new XmlFile();
+
+            DownloadManager downloadManager = new DownloadManager(fileSystem);
+            downloadManager.DownloadAndSaveFile(xmlFile, "DownloadedFile.txt");
         }
     }
 }

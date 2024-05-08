@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Persons>
+    <Person>
+        <Id>1</Id>
+        <Name>John Doe</Name>
+        <DateOfBirth>1990-01-01</DateOfBirth>
+    </Person>
+    <Person>
+        <Id>2</Id>
+        <Name>John Doe</Name>
+        <DateOfBirth>1991-01-01</DateOfBirth>
+    </Person>
+</Persons>
